@@ -1,6 +1,11 @@
 ---
 name: New .NET Foundation Project Application
-about: Creates a public issue to track your projects application to join the .NET Foundation. 
+about: Creates a public issue to track your projects application to join the .NET
+  Foundation.
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 <!-- 
@@ -97,4 +102,3 @@ Please describe any infrastructure requirements for the project. For example, ho
 
 ## 7.   Additional Notes
 Please provide any additional information required or use this area for notes during the onboarding process. If this open source project has similarities with any other projects in this space then please detail them and why this project is different. If there are any potential issues that you feel the project might need help with early on then also state them here and discuss with your .NET Foundation Contact.
-
