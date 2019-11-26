@@ -5,11 +5,11 @@ on:
     types: [labeled]
 
 jobs:
-  Add_New_Project_Application_Issue_To_Project_Board:
-    if: contains(github.event.issue.labels.*.name, 'project application')
+  Add_New_Project_Application_Issue_To_Project_Board:    
     runs-on: ubuntu-latest
     steps:
     - uses: konradpabjan/actions-add-new-issue-to-column@v1.1
+      if: contains(github.event.issue.labels.*.name, 'project application')
       with:
         action-token: "${{ secrets.ACCESS_TOKEN }}"
         project-url: "https://github.com/dotnet-foundation/projects/projects/1"
