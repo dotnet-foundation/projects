@@ -1,0 +1,16 @@
+name: Add project application to project board
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  Add_New_Project_Application_Issue_To_Project_Board:
+    if: contains(github.event.issue.labels.*.name, 'project application')
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/actions-add-new-issue-to-column@v1.1
+      with:
+        action-token: "${{ secrets.ACCESS_TOKEN }}"
+        project-url: "https://github.com/dotnet-foundation/projects/projects/1"
+        column-name: "New Project Application"
