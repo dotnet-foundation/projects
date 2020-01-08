@@ -3,7 +3,7 @@ name: Code Signing Certificate Request
 about: Request code signing certificate for an existing .NET Foundation project
 title: 'Code Signing Certificate Request: [Project Name]'
 labels: project support
-assignees: jongalloway, onovotny 
+assignees: onovotny, ChrisSfanos, jongalloway
 
 ---
 
