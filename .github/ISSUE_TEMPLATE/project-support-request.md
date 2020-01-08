@@ -3,7 +3,7 @@ name: Project Support Request
 about: Request support for an existing .NET Foundation project
 title: 'Project Support Request: [Project Name]'
 labels: project support
-assignees: jongalloway
+assignees: onovotny
 
 ---
 
