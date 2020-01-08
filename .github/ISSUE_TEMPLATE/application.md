@@ -4,7 +4,7 @@ about: Creates a public issue to track your projects application to join the .NE
   Foundation.
 title: ''
 labels: 'project application'
-assignees: ''
+assignees: onovotny, ChrisSfanos, jongalloway
 
 ---
 
