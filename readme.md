@@ -15,13 +15,10 @@ An important aspect of the .NET Foundation's vision is to attract and foster vib
 
 The Project Committee manages the day to day requirements of Projects. This includes but is not limited to the following:
 
--Review and evaluate new Project applications
-
--Monitoring health of existing Projects
-
--Handling the retirement of Projects
-
--Providing support to Projects.
+- Review and evaluate new Project applications
+- Monitoring health of existing Projects
+- Handling the retirement of Projects
+- Providing support to Projects.
 
 ## Organizational Structure
 
@@ -53,63 +50,43 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 **Suitability**
 
--The project operates within moral and ethical standards of the .NET Foundation.
-
--The project is aligned with the philosophy and guidelines for collaborative development.
-
--The project is built on the .NET platform and/or creates value within the .NET ecosystem.
-
--The project solves a large enough problem and has a clear technology scope and focus which provides a reasonable likelihood of success.
+- The project operates within moral and ethical standards of the .NET Foundation.
+- The project is aligned with the philosophy and guidelines for collaborative development.
+- The project is built on the .NET platform and/or creates value within the .NET ecosystem.
+- The project solves a large enough problem and has a clear technology scope and focus which provides a reasonable likelihood of success.
 
 **Code**
 
--The project produces software for distribution to the public at no charge.
-
--The project's code is easily discoverable and publicly accessible (preferably on GitHub). 
-
--The project contains a build script that can produce deployable artifacts that are identical to the official deployable artifacts, with the exception of code signing (Exception may be granted for strong name keys, though strongly encouraged to be committed. Exception relies on OSS signing being in the build script for public builds).
-
--When applicable, project must use reproducible build settings in its toolchain.
-
--The project uses [Source Link](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink).
-
--The project uses either embedded PDBs or publish symbol packages to NuGet (if applicable).
-
--The project code signs their artifacts as appropriate.
+- The project produces software for distribution to the public at no charge.
+- The project's code is easily discoverable and publicly accessible (preferably on GitHub). 
+- The project contains a build script that can produce deployable artifacts that are identical to the official deployable artifacts, with the exception of code signing (Exception may be granted for strong name keys, though strongly encouraged to be committed. Exception relies on OSS signing being in the build script for public builds).
+- When applicable, project must use reproducible build settings in its toolchain.
+- The project uses [Source Link](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink).
+- The project uses either embedded PDBs or publish symbol packages to NuGet (if applicable).
+- The project code signs their artifacts as appropriate.
 
 **Licenses and Copyright**
 
--The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
-
--Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency on .NET Framework).
-
--Committers are bound by a Contributor License Agreement.
-
--The copyright ownership of everything that the project produces is clearly defined and documented.
+- The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
+- Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency on .NET Framework).
+- Committers are bound by a Contributor License Agreement.
+- The copyright ownership of everything that the project produces is clearly defined and documented.
 
 **Quality**
 
--The project is open and honest about the quality of its code.
-
--The project has a public issue tracker where the status of any defect can be easily obtained.
-
--The project puts a very high priority on producing secure software. 
-
--The project has a published Security Policy.
+- The project is open and honest about the quality of its code.
+- The project has a public issue tracker where the status of any defect can be easily obtained.
+- The project puts a very high priority on producing secure software. 
+- The project has a published Security Policy.
 
 **Community**
 
--The project has a home page which provides high level information about its status and purpose.
-
--The project welcomes contributions from anyone and embraces diversity in all forms.
-
--The project strives to be a meritocracy where more rights and responsibilities are granted to contributors who add value to the project.
-
--The project has a public communication channel where community members can engage with maintainers.
-
--The project adheres to, and enforces, the .NET Foundation Code of Conduct.
-
--The project has a publicly available location where members can review documentation.
+- The project has a home page which provides high level information about its status and purpose.
+- The project welcomes contributions from anyone and embraces diversity in all forms.
+- The project strives to be a meritocracy where more rights and responsibilities are granted to contributors who add value to the project.
+- The project has a public communication channel where community members can engage with maintainers.
+- The project adheres to, and enforces, the .NET Foundation Code of Conduct.
+- The project has a publicly available location where members can review documentation.
 
 It is expected that a project satisfies the majority of the criteria outlined above; however, it is also possible for a project to obtain a waiver for specific criteria. It is the responsibility of the Project Committee to collate the project information, perform an evaluation, and make recommendations on a project's eligibility to the Board of Directors. The Board of Directors has the right to approve or deny a project's eligibility. Projects will also be re-evaluated periodically to ensure they continue to satisfy the eligibility requirements.
 
@@ -117,34 +94,20 @@ It is expected that a project satisfies the majority of the criteria outlined ab
 
 Health criteria is designed to be measurable and is based on publicly accessible metrics which can be used to evaluate the health and maturity of a project on an ongoing basis. Metrics are based on values which can be readily obtained by anyone from GitHub and Nuget.
 
--Age (based on the date on the LICENSE file in the repository or a date provided by the maintainer) 
-
--Stars
-
--Watchers
-
--Forks
-
--Used By
-
--Commits
-
-  -Issues Open
-
-  -Issues Closed
-
-  -Pull Requests Open
-
-  -Pull Requests Closed
-
--Branches
-
--Packages
-
--Releases
-
--Contributors
-
--Nuget Package Downloads
+- Age (based on the date on the LICENSE file in the repository or a date provided by the maintainer) 
+- Stars
+- Watchers
+- Forks
+- Used By
+- Commits
+  - Issues Open
+  - Issues Closed
+  - Pull Requests Open
+  - Pull Requests Closed
+- Branches
+- Packages
+- Releases
+- Contributors
+- Nuget Package Downloads
 
 There are no specific metrics levels or calculations which have been defined to judge the health of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project meets the health requirements. The Project Committee makes recommendations on a project's health to the Board of Directors. The Board of Directors has the right to approve or deny a project's health. Metrics will be gathered each month by the Project Committee so that trends can be analyzed to determine the ongoing vitality of a project.
