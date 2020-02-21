@@ -16,9 +16,9 @@ An important aspect of the .NET Foundation's vision is to attract and foster vib
 The Project Committee manages the day to day requirements of Projects. This includes but is not limited to the following:
 
 - Review and evaluate new Project applications
-- Monitoring health of existing Projects
-- Handling the retirement of Projects
-- Providing support to Projects.
+- Monitor health of existing Projects
+- Handle the retirement of Projects
+- Provide support to Projects
 
 ## Organizational Structure
 
@@ -50,7 +50,7 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 **Suitability**
 
-- The project operates within moral and ethical standards of the .NET Foundation.
+- The project operates within the moral and ethical standards of the .NET Foundation.
 - The project is aligned with the philosophy and guidelines for collaborative development.
 - The project is built on the .NET platform and/or creates value within the .NET ecosystem.
 - The project solves a large enough problem and has a clear technology scope and focus which provides a reasonable likelihood of success.
@@ -68,7 +68,7 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 **Licenses and Copyright**
 
 - The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
-- Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency on .NET Framework).
+- Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
 - Committers are bound by a Contributor License Agreement.
 - The copyright ownership of everything that the project produces is clearly defined and documented.
 
@@ -86,7 +86,7 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 - The project strives to be a meritocracy where more rights and responsibilities are granted to contributors who add value to the project.
 - The project has a public communication channel where community members can engage with maintainers.
 - The project adheres to, and enforces, the .NET Foundation Code of Conduct.
-- The project has a publicly available location where members can review documentation.
+- The project has a publicly available location where members can review and contribute to documentation.
 
 It is expected that a project satisfies the majority of the criteria outlined above; however, it is also possible for a project to obtain a waiver for specific criteria. It is the responsibility of the Project Committee to collate the project information, perform an evaluation, and make recommendations on a project's eligibility to the Board of Directors. The Board of Directors has the right to approve or deny a project's eligibility. Projects will also be re-evaluated periodically to ensure they continue to satisfy the eligibility requirements.
 
@@ -108,6 +108,6 @@ Health criteria is designed to be measurable and is based on publicly accessible
 - Packages
 - Releases
 - Contributors
-- Nuget Package Downloads
+- NuGet Package Downloads
 
 There are no specific metrics levels or calculations which have been defined to judge the health of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project meets the health requirements. The Project Committee makes recommendations on a project's health to the Board of Directors. The Board of Directors has the right to approve or deny a project's health. Metrics will be gathered each month by the Project Committee so that trends can be analyzed to determine the ongoing vitality of a project.
