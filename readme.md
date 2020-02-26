@@ -22,11 +22,11 @@ The Project Committee manages the day to day requirements of Projects. This incl
 
 ## Organizational Structure
 
-The Project Committee is comprised of volunteer .NET Foundation members and has a designated Chairperson appointed by the Executive Director. The Chairperson ensures that the Project Committee meets monthly to discuss and review items pertaining to Projects and provides information and recommendations to the Executive Director so that they can be presented to the Board of Directors for approval. All official communication from the .NET Foundation pertaining to Projects must be delivered by the Executive Director.
+The Project Committee is comprised of volunteer .NET Foundation members, a representative from the .NET Foundation Board of Directors, and a designated Chairperson appointed by the Executive Director. The Chairperson ensures that the Project Committee meets monthly to discuss and review items pertaining to Projects and provides information and recommendations to the Executive Director so that they can be presented to the Board of Directors for approval. All official communication from the .NET Foundation pertaining to Projects must be delivered by the Executive Director.
 
 ## Evaluation Criteria
 
-Transparency is a key open source characteristic, and as a result the criteria for evaluating .NET Foundation projects is designed to be as measurable and objective as possible. The criteria is not only important for evaluating new project applications but for measuring the ongoing health of existing projects. There are two types of criteria which have been defined:
+Transparency is a key open source characteristic, and as a result the criteria for evaluating .NET Foundation projects is designed to be as measurable and objective as possible. The criteria are not only important for evaluating new project applications but for measuring the ongoing health of existing projects. There are two types of criteria which have been defined:
 
 **Eligibility** - this criterion is binary in nature and is used to determine if a project is fully aligned with the mission and values of the .NET Foundation.
 
@@ -36,7 +36,7 @@ Transparency is a key open source characteristic, and as a result the criteria f
 
 Projects are categorized according to the following levels: 
 
-**Applicant** - a project which has applied to the .NET Foundation to become a member. The Project Committee will review the application within one month of the submission to determine whether or not the project has satisfied the Eligibility and/or Health requirements. Any feedback to the applicant will be delivered by the Executive Director.
+**Applicant** - a project which has applied to the .NET Foundation to become a member. The Project Committee will review the application within one month of the submission to determine whether or not the project has satisfied the Eligibility and/or Health requirements. 
 
 **Seed** - a project which has been reviewed by the Project Committee and meets the basic Eligibility requirements but does not yet meet the Health requirements. Projects at this level are eligible for some .NET Foundation project services and will be re-evaluated automatically each quarter by the Project Committee to determine if they are ready to graduate to the Member level.
 
@@ -53,11 +53,10 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 - The project operates within the moral and ethical standards of the .NET Foundation.
 - The project is aligned with the philosophy and guidelines for collaborative development.
 - The project is built on the .NET platform and/or creates value within the .NET ecosystem.
-- The project solves a large enough problem and has a clear technology scope and focus which provides a reasonable likelihood of success.
 
 **Code**
 
-- The project produces software for distribution to the public at no charge.
+- The project produces source code for distribution to the public at no charge.
 - The project's code is easily discoverable and publicly accessible (preferably on GitHub). 
 - The project contains a build script that can produce deployable artifacts that are identical to the official deployable artifacts, with the exception of code signing (Exception may be granted for strong name keys, though strongly encouraged to be committed. Exception relies on OSS signing being in the build script for public builds).
 - When applicable, project must use reproducible build settings in its toolchain.
@@ -67,9 +66,9 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 **Licenses and Copyright**
 
-- The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
+- The code is offered under an open source license which has been approved by the .NET Foundation.
 - Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
-- Committers are bound by a Contributor License Agreement.
+- Committers are bound by a Contributor License Agreement (CLA) and/or are willing to embrace the .NET Foundation's CLA when the project becomes a Member.
 - The copyright ownership of everything that the project produces is clearly defined and documented.
 
 **Quality**
@@ -82,8 +81,8 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 **Community**
 
 - The project has a home page which provides high level information about its status and purpose.
-- The project welcomes contributions from anyone and embraces diversity in all forms.
-- The project strives to be a meritocracy where more rights and responsibilities are granted to contributors who add value to the project.
+- The project welcomes contributions from anyone and embraces diversity.
+- The project strives to grant more rights and responsibilities to contributors who add value to the project.
 - The project has a public communication channel where community members can engage with maintainers.
 - The project adheres to, and enforces, the .NET Foundation Code of Conduct.
 - The project has a publicly available location where members can review and contribute to documentation.
@@ -92,13 +91,12 @@ It is expected that a project satisfies the majority of the criteria outlined ab
 
 ## Health Criteria
 
-Health criteria is designed to be measurable and is based on publicly accessible metrics which can be used to evaluate the health and maturity of a project on an ongoing basis. Metrics are based on values which can be readily obtained by anyone from GitHub and Nuget.
+Health criteria are designed to be measurable and are based on publicly accessible metrics which can be used to evaluate the health and maturity of a project on an ongoing basis. For convenience reasons, standard metrics are based on values which can be readily obtained by anyone from GitHub and Nuget; however, metrics from other open source hosting platforms will also be considered.
 
 - Age (based on the date on the LICENSE file in the repository or a date provided by the maintainer) 
 - Stars
 - Watchers
 - Forks
-- Used By
 - Commits
   - Issues Open
   - Issues Closed
