@@ -30,4 +30,4 @@ Certificate onboarding checklist:
 - [ ] Create configuration in Code Signing Service
 - [ ] Provide credentials in shared folder in LastPass
 - [ ] Request certificate from DigiCert
-- [ ] Recieved certificate and finalize sign service configuration
+- [ ] Received certificate and finalize sign service configuration
