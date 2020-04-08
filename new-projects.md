@@ -20,7 +20,7 @@ Joining the .NET Foundation involves submitting an application, review of the pr
 
 When you are ready to apply to join, [fill out a new project application](https://github.com/dotnet-foundation/projects/issues/new?assignees=&labels=project+application&template=application.md&title=)
 
-You can complete the application in GitHub directly, email us a copy of the document (ADD EMAIL HERE), or attach a copy of the document to the GitHub issue.  To help with some of the common questions in the application, we’ve included some extra details to help you along
+You can complete the application in GitHub directly, email us a copy of the document (contact@dotnetfoundation.org), or attach a copy of the document to the GitHub issue.  To help with some of the common questions in the application, we’ve included some extra details to help you along
 
 **Contribution vs Assignment.**  The difference is in the contribution model is who actually owns the copyright. It is important, but in terms of practical operation of the project it’s pretty transparent
 
