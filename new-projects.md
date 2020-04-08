@@ -20,7 +20,7 @@ Joining the .NET Foundation involves submitting an application, review of the pr
 
 When you are ready to apply to join, [fill out a new project application](https://github.com/dotnet-foundation/projects/issues/new?assignees=&labels=project+application&template=application.md&title=)
 
-You can complete the application in GitHub directly, email us a copy of the document, or attach a copy of the document to the GitHub issue.  To help with some of the common questions in the application, we’ve included some extra details to help you along
+You can complete the application in GitHub directly, email us a copy of the document (ADD EMAIL HERE), or attach a copy of the document to the GitHub issue.  To help with some of the common questions in the application, we’ve included some extra details to help you along
 
 **Contribution vs Assignment.**  The difference is in the contribution model is who actually owns the copyright. It is important, but in terms of practical operation of the project it’s pretty transparent
 
@@ -31,16 +31,20 @@ You can complete the application in GitHub directly, email us a copy of the docu
 
 Normally for community projects we recommend contribution. It’s more applicable for projects that have had multiple contributors over a period of time. Assignment is more applicable for a project that was developed in-house by a company, as they have had complete and traceable ownership of the project throughout its lifespan. Either works fine and has little to no day to day impact on the project once it joins from an actual open source development / shipping software point of view. I’d honestly have to go back and check the transfer agreements for a project to tell you what contribution model they chose. So, whatever makes your lawyers happiest is best.
 
-Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete and it’s ready to move forward, the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next
+Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete, and assuming the committee recommends it move forward the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next. 
+
+## Project Not Selected
+(Add details here)
+
 
 ## Signing the CLA
-After the .NET Foundation board approves the project, it’s time to sign the CLA and move the project to the .NET Foundation.  To setup and distribute the CLA, we will need a few pieces of information from you
+If the .NET Foundation board approves the project, it’s time to sign the CLA and move the project to the .NET Foundation.  To setup and distribute the CLA, we will need a few pieces of information from you
 
 * **Project Transfer Signatories:** This should be the top contributors, typically the top 2-5 contributed more than a few hundred lines of code
   * We will need their email addresses, so we can send the CLA for signing (we currently use DocuSign)
 * **Project Trademarks - Disclaimed vs Licensed.** Signing the CLA includes how you want to handle any trademarks for the project.  These typically include the project name and potentially anything exclusive to the trademark for your project
 
-By default, the .NET Foundatio selects **licensed** in the CLA
+By default, the .NET Foundation selects **licensed** in the CLA
 
 |Type|What it Means|Why you'd select it <img width=900/>|
 -----|-------------|-------------------
@@ -56,7 +60,7 @@ The last stage of joining the .NET Foundation involves a set of activities to br
 |-----|----------|
 |Configure CLA bot| detailed description needed|
 |Mailing List|Join the project leader mailing list|
-|Slack channel|Joing the project leader slack channel|
+|Slack channel|Join the project leader slack channel|
 |License updates + copyright|Move your license to MIT (or continue to use Apache)|
 |Code of Conduct|Review and add to your README|
 |Project list|Get your project included on the project list on the .NET Foundation website|
