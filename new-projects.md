@@ -31,10 +31,7 @@ You can complete the application in GitHub directly, email us a copy of the docu
 
 Normally for community projects we recommend contribution. It’s more applicable for projects that have had multiple contributors over a period of time. Assignment is more applicable for a project that was developed in-house by a company, as they have had complete and traceable ownership of the project throughout its lifespan. Either works fine and has little to no day to day impact on the project once it joins from an actual open source development / shipping software point of view. I’d honestly have to go back and check the transfer agreements for a project to tell you what contribution model they chose. So, whatever makes your lawyers happiest is best.
 
-Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete, and assuming the committee recommends it move forward the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next. 
-
-## Project Not Selected
-(Add details here)
+Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete it will move forward for review by the .NET Foundation Board.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next. 
 
 
 ## Signing the CLA
