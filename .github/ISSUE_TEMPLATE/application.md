@@ -52,7 +52,7 @@ Full legal name and email address required of the individual(s) with the authori
 **Please provide a brief statement about your project in terms that are understandable to the target consumer of the library or project, i.e. an elevator pitch for the project:**
 
 
-**Please provide a 1 sentence (<140 character) summary of your to help users when searching the .NET Foundation projects**
+**Please provide a 1 sentence (<140 character) summary of your project to help users when searching the .NET Foundation projects**
 
 ## 3.   Project Governance
 Please complete this section about who will be maintaining the open source project and how it will run.
