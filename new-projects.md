@@ -22,30 +22,23 @@ When you are ready to apply to join, [fill out a new project application](https:
 
 You can complete the application in GitHub directly, email us a copy of the document, or attach a copy of the document to the GitHub issue.  To help with some of the common questions in the application, we’ve included some extra details to help you along
 
-**Contribution vs Assignment.**  The difference is in the contribution model is who actually owns the copyright. It is important, but in terms of practical operation of the project it’s pretty transparent
+**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
 
-|Type|What it Means|Why you'd select it <img width=900/>|
------|-------------|-------------------
-|Contribution|The project grants the .NET Foundation a license and rights to the intellectual property and source code. The project agrees that it is their work, and the .NET Foundation can protect your copyright.|Info needed please|
-|Assignment|The project / company gives the .NET Foundation the project, the .NET Foundation grants it back.|Info needed please|
-
-Normally for community projects we recommend contribution. It’s more applicable for projects that have had multiple contributors over a period of time. Assignment is more applicable for a project that was developed in-house by a company, as they have had complete and traceable ownership of the project throughout its lifespan. Either works fine and has little to no day to day impact on the project once it joins from an actual open source development / shipping software point of view. I’d honestly have to go back and check the transfer agreements for a project to tell you what contribution model they chose. So, whatever makes your lawyers happiest is best.
-
-Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete and it’s ready to move forward, the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next
+** Review Process.** Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete and it’s ready to move forward, the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next
 
 ## Signing the CLA
 After the .NET Foundation board approves the project, it’s time to sign the CLA and move the project to the .NET Foundation.  To setup and distribute the CLA, we will need a few pieces of information from you
 
 * **Project Transfer Signatories:** This should be the top contributors, typically the top 2-5 contributed more than a few hundred lines of code
   * We will need their email addresses, so we can send the CLA for signing (we currently use DocuSign)
-* **Project Trademarks - Disclaimed vs Licensed.** Signing the CLA includes how you want to handle any trademarks for the project.  These typically include the project name and potentially anything exclusive to the trademark for your project
+* **Project Trademarks - Licensed vs Disclaimed.** When signing the CLA you are asked to describe and choose how you want to handle any trademarks for the project.  These include the project name, at a minimum, and potentially any logos or other recognizable, non-descriptive titles used within the project – these do not need to be formally registered trademarks. 
 
 By default, the .NET Foundatio selects **licensed** in the CLA
 
 |Type|What it Means|Why you'd select it <img width=900/>|
 -----|-------------|-------------------
-|Disclaimed|Project agrees not to enforce the trademark against the .NET Foundation or anyone else.|Info needed please|
-|Licensed|Project retains ownership of any trademarks and licenses the .NET Foundation to use them.|Info needed please|
+|Licensed|Project retains ownership of any trademarks and licenses the .NET Foundation to use them.|This follows the same ownership/license structure as the copyright in the project. The project keeps ownership in the trademarks and .NET Foundation only has the rights that are specifically granted in the license. The project still retains the rights to enforce its rights in the trademarks. |
+|Disclaimed|Project agrees not to enforce the trademark against the .NET Foundation or anyone else.|The project doesn’t claim any ownership rights to the trademarks and does not plan to control how .NET Foundation decides to use the trademarks. |
 
 Once we have the signatories identified, we will send out the CLA via DocuSign for everyone to complete.  Once all parties have signed it and we’ve filed it away, we move forward with onboarding the project itself
 
