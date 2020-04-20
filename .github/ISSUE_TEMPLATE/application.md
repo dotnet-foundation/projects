@@ -10,25 +10,29 @@ assignees: onovotny, ChrisSfanos
 
 <!-- 
 Instructions:
-Thanks for your application to join the .NET Foundation. 
+Thanks for your application to join the .NET Foundation! 
 
-1.  Here is a checklist of steps we’ll follow during the process: [https://github.com/dotnet/foundation/blob/master/guidance/new-projects.md](https://github.com/dotnet/foundation/blob/master/guidance/new-projects.md)
-2.  Please fill out the application in the template below. If you prefer to submit via e-mail to keep information private, you can use this [application form](https://github.com/dotnet-foundation/projects/blob/master/OnBoardingQuestionaire.docx) and submit to contact@dotnetfoundation.org, referencing this issue number. You can also fill out the Word document and submit it as an [attachement to the issue](https://help.github.com/en/articles/file-attachments-on-issues-and-pull-requests), via Google Doc, etc. If you have questions, fill out what you know and discuss on the issue.
-3.  After review and comment by the advisory council, we will submit your questionnaire to the board of directors recommending we add your project.
-4.  We will send you a contribution agreement via DocuSign.
-5.  We can announce the project is joining, and work through the other steps on the checklist.
+1.  Here is a checklist of steps we’ll follow during the process: [https://github.com/dotnet-foundation/projects/blob/master/new-projects.md](https://github.com/dotnet-foundation/projects/blob/master/new-projects.md)
+2.  Please review the [Eligibility Criteria](https://github.com/dotnet-foundation/projects#eligibility-criteria) before completing the application 
+3.  Please fill out the application in the template below. If you prefer to submit via e-mail to keep information private, you can use this [application form](https://github.com/dotnet-foundation/projects/blob/master/OnBoardingQuestionaire.docx) and submit to contact@dotnetfoundation.org, referencing this issue number. You can also fill out the Word document and submit it as an [attachment to the issue](https://help.github.com/en/articles/file-attachments-on-issues-and-pull-requests), via Google Doc, etc. If you have questions, fill out what you know and discuss on the issue.
+4.  After review and comment by the advisory council, we will submit your questionnaire to the board of directors recommending we add your project.
+5.  We will send you a contribution agreement via DocuSign and configure the CLA bot.
+6.  Finally, we will send you a on-boarding checklist with a set of work items to perform to complete the process.
 
 
 Some common questions that come up on the questionnaire:
 
-*   Project Transfer Signatories section: List the top contributors, with contact e-mail. For most projects, this is the top 1-5 contributors who have contributed more than a few hundred lines of code.
-*   Contribution vs Assignment: The difference is in the contribution model is who actually owns the copyright. It is important, but in terms of practical operation of the project it’s pretty transparent.
+**Project Transfer Signatories.**: List the top contributors, with __contact e-mail__. For most projects, this is the top 1-5 contributors who have contributed more than a few hundred lines of code.
+**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
+**Project Trademarks - Licensed vs Disclaimed.** When signing the CLA you are asked to describe and choose how you want to handle any trademarks for the project.  These include the project name, at a minimum, and potentially any logos or other recognizable, non-descriptive titles used within the project – these do not need to be formally registered trademarks. 
 
+By default, the .NET Foundation selects **Licensed** in the CLA
 
-*   **Contribution:** The project grants the .NET Foundation a license and rights to the intellectual property and source code. The project agrees that it is their work, and the .NET Foundation can protect your copyright.
-*   **Assignment:** The project / company gives the .NET Foundation the project, the .NET Foundation grants it back  
+|Type|What it Means|Why you'd select it <img width=900/>|
+-----|-------------|-------------------
+|Licensed|Project retains ownership of any trademarks and licenses the .NET Foundation to use them.|This follows the same ownership/license structure as the copyright in the project. The project keeps ownership in the trademarks and .NET Foundation only has the rights that are specifically granted in the license. The project still retains the rights to enforce its rights in the trademarks. |
+|Disclaimed|Project agrees not to enforce the trademark against the .NET Foundation or anyone else.|The project doesn’t claim any ownership rights to the trademarks and does not plan to control how .NET Foundation decides to use the trademarks. |
 
- Normally for community projects we recommend contribution. It’s more applicable for projects that have had multiple contributors over a period of time. Assignment is more applicable for a project that was developed in-house by a company, as they have had complete and traceable ownership of the project throughout its lifespan. Either works fine and has little to no day to day impact on the project once it joins from an actual open source development / shipping software point of view. I’d honestly have to go back and check the transfer agreements for a project to tell you what contribution model they chose. So, whatever makes your lawyers happiest is best.
 -->
 
 ## 1.   General Information
@@ -46,7 +50,7 @@ Some common questions that come up on the questionnaire:
 **Project Homepage URL (if different):**
 
 **Project Transfer Signatories:**
-Full legal name and email address required of the individual(s) with the authority to transfer or contribute the project to the .NET Foundation. Note that if you'd prefer not to include this in the public application, it can be submitted via e-mail to contact@dotnetfoundation.org (referencing this issue number).
+Full legal name and __email address__ required of the individual(s) with the authority to transfer or contribute the project to the .NET Foundation. Note that if you'd prefer not to include this in the public application, it can be submitted via e-mail to contact@dotnetfoundation.org (referencing this issue number).
 
 ## 2.   Description
 **Please provide a brief statement about your project in terms that are understandable to the target consumer of the library or project, i.e. an elevator pitch for the project:**
@@ -80,9 +84,7 @@ Provide an email address that will receive CLA related notifications from the .N
 
 **Project Transfer Type**
 
-Projects may join the .NET Foundation in one of two ways and you should chat with your .NET Foundation contact to discuss the best mechanism for your project. You can either a) assign the copyright of the project's source code to the .NET Foundation or b) contribute the project source code to the .NET Foundation under an open source license. Assignment is the preferred approach, but licensing a project to the Foundation may be more appropriate for longer running open source projects that have not previously had a contribution license agreement and have accepted contributions from many different sources.
-a) Assignment
-b) Contribution
+**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
 
 
 ## 4.   Repository Layout
@@ -93,12 +95,63 @@ Note that the open source repository should be the master where changes are made
 
 Please define below any changes you would want to make to your repositories as part of the process of joining the .NET Foundation
 
-## 5.   PR Plan
+## 5.  Eligibility Criteria
+Please complete the following for your project
+* The project is built on the .NET platform and/or creates value within the .NET ecosystem.
+- [ ] Yes 
+- [ ] No
+* The project produces source code for distribution to the public at no charge.
+- [ ] Yes 
+- [ ] No
+* The project's code is easily discoverable and publicly accessible (preferably on GitHub).
+- [ ] Yes 
+- [ ] No
+* The project contains a build script that can produce deployable artifacts that are identical to the official deployable artifacts, with the exception of code signing (Exception may be granted for strong name keys, though strongly encouraged to be committed. Exception relies on OSS signing being in the build script for public builds).
+- [ ] Yes 
+- [ ] No
+* When applicable, project must use reproducible build settings in its toolchain.
+- [ ] Yes 
+- [ ] No
+* The project uses [Source Link.](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink)
+- [ ] Yes 
+- [ ] No
+* The project uses either embedded PDBs or publish symbol packages to NuGet (if applicable).
+- [ ] Yes 
+- [ ] No
+* The project code signs their artifacts as appropriate.
+- [ ] Yes 
+- [ ] No
+* Libraries that are mandatory dependencies of the project are offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
+- [ ] Yes 
+- [ ] No
+* Committers are bound by a Contributor License Agreement (CLA) and/or are willing to embrace the .NET Foundation's CLA when the project becomes a Member.
+- [ ] Yes 
+- [ ] No
+* The copyright ownership of everything that the project produces is clearly defined and documented.
+- [ ] Yes 
+- [ ] No
+* The project has a public issue tracker where the status of any defect can be easily obtained.
+- [ ] Yes 
+- [ ] No
+* The project has a published Security Policy.
+- [ ] Yes 
+- [ ] No
+* The project has a home page which provides high level information about its status and purpose.
+- [ ] Yes 
+- [ ] No
+* The project has a public communication channel where community members can engage with maintainers.
+- [ ] Yes 
+- [ ] No
+* The project has a publicly available location where members can review and contribute to documentation.
+- [ ] Yes 
+- [ ] No
+
+## 6.   PR Plan
 Please summarize the public relations plan for the announcement when joining the foundation (and releasing as open source if appropriate). What is the main story we wish to promote, through what channels, what issues should we be aware of?  For significant news events then please also work with your .NET Foundation contact to ensure a [full PR plan](https://dotnetfoundation.sharepoint.com/Shared%20Documents/PR/Communications%20Plan%20TEMPLATE.docx?web=1) is developed.
 
-## 6.   Infrastructure Requirements
+## 7.   Infrastructure Requirements
 Please describe any infrastructure requirements for the project. For example, how will build servers be operated? Any web hosting or service hosting requirements? Do we need to set up SSL certificates or provide Authenticode Code Signing arrangement for releases?
 
 
-## 7.   Additional Notes
+## 8.   Additional Notes
 Please provide any additional information required or use this area for notes during the onboarding process. If this open source project has similarities with any other projects in this space then please detail them and why this project is different. If there are any potential issues that you feel the project might need help with early on then also state them here and discuss with your .NET Foundation Contact.
