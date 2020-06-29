@@ -84,7 +84,12 @@ Provide an email address that will receive CLA related notifications from the .N
 
 **Project Transfer Type**
 
-**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
+- [ ] Assigment
+- [ ] Contribution
+
+**Assignment Model.**  Under the .NET Foundation assignment model, project ownership and other intellectual property is assigned to the .NET Foundation and the .NET Foundation agrees to grantback a license to the contributor(s). 
+
+**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants the .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
 
 
 ## 4.   Repository Layout
