@@ -16,7 +16,7 @@ An important aspect of the .NET Foundation's vision is to attract and foster vib
 The Project Committee manages the day to day requirements of Projects. This includes but is not limited to the following:
 
 - Review and evaluate new Project applications
-- Monitor health of existing Projects
+- Ensure the capabilities and confidence of existing projects
 - Handle the retirement of Projects
 - Provide support to Projects
 
