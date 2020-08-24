@@ -16,33 +16,33 @@ An important aspect of the .NET Foundation's vision is to attract and foster vib
 The Project Committee manages the day to day requirements of Projects. This includes but is not limited to the following:
 
 - Review and evaluate new Project applications
-- Monitor health of existing Projects
-- Handle the retirement of Projects
+- Monitor activity of existing Projects
 - Provide support to Projects
+- Manage the retirement of Projects
 
 ## Organizational Structure
 
-The Project Committee is comprised of volunteer .NET Foundation members, a representative from the .NET Foundation Board of Directors, and a designated Chairperson appointed by the Executive Director. The Chairperson ensures that the Project Committee meets monthly to discuss and review items pertaining to Projects and provides information and recommendations to the Executive Director so that they can be presented to the Board of Directors for approval. All official communication from the .NET Foundation pertaining to Projects must be delivered by the Executive Director.
+The Project Committee is comprised of volunteer .NET Foundation members and does not have any authority to make decisions pertaining to the .NET Foundation. A designated Chairperson will be appointed by the Project Committee and will ensure that the Project Committee meets monthly to discuss and review items pertaining to Projects. The Chairperson will communicate any relevant information, proposals, or recommendations to the Executive Director so that they can be presented to the Board of Directors for review. 
 
-## Evaluation Criteria
+## Criteria
 
-Transparency is a key open source characteristic, and as a result the criteria for evaluating .NET Foundation projects is designed to be as measurable and objective as possible. The criteria are not only important for evaluating new project applications but for measuring the ongoing health of existing projects. There are two types of criteria which have been defined:
+Transparency is a key open source characteristic, and as a result the criteria for evaluating .NET Foundation projects is designed to be as measurable and objective as possible. The criteria are not only important for evaluating new project applications but for measuring the ongoing activity of existing projects. There are two types of criteria which have been defined:
 
 **Eligibility** - this criterion is binary in nature and is used to determine if a project is fully aligned with the mission and values of the .NET Foundation.
 
-**Health** - this criterion is quantitative in nature and is based on publicly accessible metrics which can be used to evaluate the health and maturity of a project.
+**Activity** - this criterion is quantitative in nature and is based on publicly accessible metrics which can be used to evaluate the activity of a project.
 
 ## Project Levels
 
 Projects are categorized according to the following levels: 
 
-**Applicant** - a project which has applied to the .NET Foundation to become a member. The Project Committee will review the application within one month of the submission to determine whether or not the project has satisfied the Eligibility and/or Health requirements. 
+**Applicant** - a project which has applied to the .NET Foundation to become a member. The Project Committee will review the application within one month of the submission to determine whether or not the project has satisfied the Eligibility and/or Activity requirements. 
 
-**Seed** - a project which has been reviewed by the Project Committee and meets the basic Eligibility requirements but does not yet meet the Health requirements. Projects at this level are eligible for some .NET Foundation project services and will be re-evaluated automatically each quarter by the Project Committee to determine if they are ready to graduate to the Member level.
+**Seed** - a project which has been reviewed by the Project Committee and meets the basic Eligibility requirements but does not yet meet the Activity requirements. Projects at this level are eligible for some .NET Foundation project services and will be re-evaluated automatically each quarter by the Project Committee to determine if they are ready to graduate to the Member level.
 
-**Member** - a project which satisfies the Eligibility and Health requirements and has been on-boarded as an official .NET Foundation project. Projects at this level can identify themselves publicly as Member Projects and are eligible to obtain access to all .NET Foundation project services. They will continue to be monitored on a monthly basis to ensure they meet the Eligibility and Health criteria.
+**Member** - a project which satisfies the Eligibility and Activity requirements and has been on-boarded as an official .NET Foundation project. Projects at this level can identify themselves publicly as Member Projects and are eligible to obtain access to all .NET Foundation project services. The Project Committee will continue to review their activities on a regular basis.
 
-**Retired** - a project which was once a Member Project but no longer satisfies either the Eligibility or Health requirements, or has submitted a formal request to withdraw from the .NET Foundation.
+**Retired** - a project which was once a Member Project but no longer satisfies either the Eligibility or Activity requirements, or has submitted a formal request to withdraw from the .NET Foundation.
 
 ## Eligibility Criteria
 
@@ -66,7 +66,7 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 **Licenses and Copyright**
 
-- The code is offered under an open source license which has been approved by the .NET Foundation.
+- The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
 - Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
 - Committers are bound by a Contributor License Agreement (CLA) and/or are willing to embrace the .NET Foundation's CLA when the project becomes a Member.
 - The copyright ownership of everything that the project produces is clearly defined and documented.
@@ -89,9 +89,9 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 It is expected that a project satisfies the majority of the criteria outlined above; however, it is also possible for a project to obtain a waiver for specific criteria. It is the responsibility of the Project Committee to collate the project information, perform an evaluation, and make recommendations on a project's eligibility to the Board of Directors. The Board of Directors has the right to approve or deny a project's eligibility. Projects will also be re-evaluated periodically to ensure they continue to satisfy the eligibility requirements.
 
-## Health Criteria
+## Activity Criteria
 
-Health criteria are designed to be measurable and are based on publicly accessible metrics which can be used to evaluate the health and maturity of a project on an ongoing basis. For convenience reasons, standard metrics are based on values which can be readily obtained by anyone from GitHub and Nuget; however, metrics from other open source hosting platforms will also be considered.
+Activity criteria are designed to be measurable and are based on publicly accessible metrics which can be used to evaluate the activity of a project on an ongoing basis. For convenience reasons, standard metrics are based on values which can be readily obtained by anyone from GitHub; however, metrics from other open source hosting platforms will also be considered.
 
 - Age (based on the date on the LICENSE file in the repository or a date provided by the maintainer) 
 - Stars
@@ -106,6 +106,5 @@ Health criteria are designed to be measurable and are based on publicly accessib
 - Packages
 - Releases
 - Contributors
-- NuGet Package Downloads
 
-There are no specific metrics levels or calculations which have been defined to judge the health of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project meets the health requirements. The Project Committee makes recommendations on a project's health to the Board of Directors. The Board of Directors has the right to approve or deny a project's health. Metrics will be gathered each month by the Project Committee so that trends can be analyzed to determine the ongoing vitality of a project.
+There are no specific metrics levels, analysis, or calculations which have been defined to judge the activity of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project is active and makes this information available to the Board of Directors. Metrics are gathered on an ongoing basis by the Project Committee so that trends can be determined.
