@@ -1,5 +1,5 @@
 
-# .NET Foundation Project Committee
+# .NET Foundation Project Committee Charter
 
 ## Background
 
