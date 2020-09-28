@@ -126,7 +126,7 @@ Please complete the following for your project
 * The project code signs their artifacts as appropriate.
 - [ ] Yes 
 - [ ] No
-* The project organization has 2FA enabled. Requring 2FA must be done as part of onboarding if not already enabled.
+* The project organization has 2FA enabled. Requiring 2FA must be done as part of onboarding if not already enabled.
 - [ ] Yes
 - [ ] No
 * Libraries that are mandatory dependencies of the project are offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
