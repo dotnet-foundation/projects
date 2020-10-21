@@ -26,8 +26,8 @@ and involving the project support team.
 Certificate onboarding checklist:
 
 - [ ] Register trade name @ChrisSfanos
-- [ ] Create organization with DigiCert
 - [ ] Create configuration in Code Signing Service
-- [ ] Provide credentials in shared folder in LastPass
+- [ ] Create organization with DigiCert
 - [ ] Request certificate from DigiCert
 - [ ] Received certificate and finalize sign service configuration
+- [ ] Provide credentials in shared folder in LastPass
