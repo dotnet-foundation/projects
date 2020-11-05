@@ -24,8 +24,6 @@ You can complete the application in GitHub directly, email us a copy of the docu
 
 **Assignment Model.**  Under the .NET Foundation assignment model, project ownership and other intellectual property is assigned to the .NET Foundation and the .NET Foundation agrees to grantback a license to the contributor(s). 
 
-**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
-
 **Review Process.** Once you’ve submitted the issue, it will be reviewed by the Project Review committee and they will follow up with any questions on your application.  After the review is complete and it’s ready to move forward, the .NET Foundation Board will review it.  The Board meets monthly and reviews new projects sent over from the Project Review committee.  After the board votes to approve a new project, signing the CLA is up next.
 
 ## Signing the CLA
