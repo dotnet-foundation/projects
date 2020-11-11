@@ -84,6 +84,9 @@ Provide an email address that will receive CLA related notifications from the .N
 
 **Assignment Model.**  Under the .NET Foundation assignment model, project ownership and other intellectual property is assigned to the .NET Foundation and the .NET Foundation agrees to grantback a license to the contributor(s). 
 
+**Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the project, but grants the .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
+
+
 ## 4.   Repository Layout
 The .NET Foundation host guidance for new projects and details on recommended structure here:
 [https://github.com/dotnet/home/tree/master/guidance](https://github.com/dotnet/home/tree/master/guidance)
