@@ -3,8 +3,8 @@ name: New .NET Foundation Project Application
 about: Creates a public issue to track your projects application to join the .NET
   Foundation.
 title: ''
-labels: 'project application'
-assignees: clairernovotny, ChrisSfanos
+labels: project application
+assignees: ChrisSfanos, sbwalker
 
 ---
 

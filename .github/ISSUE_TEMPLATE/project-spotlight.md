@@ -2,7 +2,7 @@
 name: Project Spotlight Request
 about: Request highlighting an existing .NET Foundation project
 title: 'Project Spotlight Request: [Project Name]'
-labels: project spotlight
+labels: ''
 assignees: clairernovotny
 
 ---
@@ -28,6 +28,3 @@ assignees: clairernovotny
 **Month you would prefer to be featured**
 
 **Timeline when to conduct a short interview**
-
-
-
