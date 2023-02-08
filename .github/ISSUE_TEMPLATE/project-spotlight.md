@@ -3,7 +3,7 @@ name: Project Spotlight Request
 about: Request highlighting an existing .NET Foundation project
 title: 'Project Spotlight Request: [Project Name]'
 labels: ''
-assignees: clairernovotny
+assignees: isaacrlevin
 
 ---
 
