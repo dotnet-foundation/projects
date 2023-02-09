@@ -3,7 +3,7 @@ name: New .NET Foundation Project Application
 about: Creates a public issue to track your projects application to join the .NET
   Foundation.
 title: ''
-labels: project application
+labels: project application, project support
 assignees: ChrisSfanos, sbwalker
 
 ---
@@ -14,7 +14,7 @@ Thanks for your application to join the .NET Foundation! 
 
 1.  Here is a checklist of steps we’ll follow during the process: [https://github.com/dotnet-foundation/projects/blob/master/new-projects.md](https://github.com/dotnet-foundation/projects/blob/master/new-projects.md)
 2.  Please review the [Eligibility Criteria](https://github.com/dotnet-foundation/projects#eligibility-criteria) before completing the application 
-3.  Please fill out the application in the template below. If you prefer to submit via e-mail to keep information private, you can use this [application form](https://github.com/dotnet-foundation/projects/blob/master/OnBoardingQuestionaire.docx) and submit to contact@dotnetfoundation.org, referencing this issue number. You can also fill out the Word document and submit it as an [attachment to the issue](https://help.github.com/en/articles/file-attachments-on-issues-and-pull-requests), via Google Doc, etc. If you have questions, fill out what you know and discuss on the issue.
+3.  Please fill out the application in the template below. If you have any issues with using the template, please reach out to the team at contact@dotnetfoundation.org and we will follow up directly with you.
 4.  After review and comment by the advisory council, we will submit your questionnaire to the board of directors recommending we add your project.
 5.  We will send you a contribution agreement via DocuSign and configure the CLA bot.
 6.  Finally, we will send you a on-boarding checklist with a set of work items to perform to complete the process.
