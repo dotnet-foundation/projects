@@ -24,6 +24,12 @@ The Project Committee manages the day to day requirements of Projects. This incl
 
 The Project Committee is comprised of volunteer .NET Foundation members and does not have any authority to make decisions pertaining to the .NET Foundation. A designated Chairperson will be appointed by the Project Committee and will ensure that the Project Committee meets monthly to discuss and review items pertaining to Projects. The Chairperson will communicate any relevant information, proposals, or recommendations to the Executive Director so that they can be presented to the Board of Directors for review. 
 
+## Joining the Committee
+
+The Project Committee meets for one hour on the 2nd Thursday of every month at 12:00 PM ET via Microsoft Teams. We invite you to join us and become a member of our team.
+
+To join the committee and attend the meetings, submit a [request to join the project team](https://github.com/dotnet-foundation/projects/issues/new?assignees=sbwalker&labels=membership&template=membership.md) and express your interest in being added to the meeting invite. We welcome individuals from all backgrounds and experience levels who share our passion for .NET, the open source model, and collaborative software development.
+
 ## Criteria
 
 Transparency is a key open source characteristic, and as a result the criteria for evaluating .NET Foundation projects is designed to be as measurable and objective as possible. The criteria are not only important for evaluating new project applications but for measuring the ongoing activity of existing projects. There are two types of criteria which have been defined:
