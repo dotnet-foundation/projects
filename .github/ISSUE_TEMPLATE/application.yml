@@ -1,0 +1,306 @@
+name: New .NET Foundation Project Application
+description: Creates a public issue to track your projects application to join the .NET Foundation.
+title: "Issue: New .NET Foundation Project Application"
+labels: ["project application", "project support"]
+assignees:
+  - sbwalker
+  - ChrisSfanos
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Instructions:
+        Thanks for your application to join the .NET Foundation!
+
+        1.  Here is a checklist of steps we'll follow during the process: [New Project Onboarding](https://github.com/dotnet-foundation/projects/blob/master/new-projects.md)
+        2.  Please review the [Eligibility Criteria](https://github.com/dotnet-foundation/projects#eligibility-criteria) before completing the application 
+        3.  Please fill out the application in the template below. If you have any issues with using the template, please reach out to the team at contact@dotnetfoundation.org and we will follow up directly with you.
+        4.  After review and comment by the advisory council, we will submit your questionnaire to the board of directors recommending we add your project.
+        5.  We will send you a contribution agreement via DocuSign and configure the CLA bot.
+        6.  Finally, we will send you a on-boarding checklist with a set of work items to perform to complete the process.
+
+
+        Some common questions that come up on the questionnaire:
+
+        **Project Transfer Signatories.**: List the top contributors, with __contact e-mail__. For most projects, this is the top 1-5 contributors who have contributed more than a few hundred lines of code.
+        **Contribution Model.**  Under the .NET Foundation contribution model, a project retains ownership of the copyright, but grants .NET Foundation a broad license to the project's code and other intellectual property. The project also confirms that the project's submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
+        **Project Trademarks - Licensed vs Disclaimed.** When signing the CLA you are asked to describe and choose how you want to handle any trademarks for the project.  These include the project name, at a minimum, and potentially any logos or other recognizable, non-descriptive titles used within the project - these do not need to be formally registered trademarks. 
+
+        By default, the .NET Foundation selects **Licensed** in the CLA
+
+        |Type|What it Means|Why you'd select it <img width=900/>|
+        -----|-------------|-------------------
+        |Licensed|Project retains ownership of any trademarks and licenses the .NET Foundation to use them.|This follows the same ownership/license structure as the copyright in the project. The project keeps ownership in the trademarks and .NET Foundation only has the rights that are specifically granted in the license. The project still retains the rights to enforce its rights in the trademarks. |
+        |Disclaimed|Project agrees not to enforce the trademark against the .NET Foundation or anyone else.|The project doesn't claim any ownership rights to the trademarks and does not plan to control how .NET Foundation decides to use the trademarks. |
+
+        ## 1.  General Information:
+        Please provide the following information about your project.
+
+  - type: input
+    id: projectName
+    attributes:
+      label: Project Name
+      description: The name of your project
+      placeholder: My Awesome Project
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: The license your project is under.
+      placeholder: MIT
+    validations:
+      required: true
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor
+      description: The name of the contributor(s)
+      placeholder: Company, Organization or individual name(s)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: existingOSSProject
+    attributes:
+      label: Existing OSS Project?
+      description: Select if the application is for an existing OSS project or not.
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: input
+    id: sourceCodeURL
+    attributes:
+      label: Source Code URL
+      description: The URL to the source code for your project.
+      placeholder: https://github.com/<github-username>/<repository-name>
+    validations:
+      required: true
+
+  - type: input
+    id: projectHomepageURL
+    attributes:
+      label: Project Homepage URL
+      description: The URL to the homepage for your project if different from the Source Code URL.
+    validations:
+      required: false
+
+  - type: textarea
+    id: projectTransferSignatories
+    attributes:
+      label: Project Transfer Signatories
+      description: Full legal name and __email address__ required of the individual(s) with authority to transfer or contribute the project to the .NET Foundation. Note that if you'd prefer not to include this in the public application, it can be submitted via e-mail to contact@dotnetfoundation.org (referencing this issue number).
+      placeholder: |
+        * John Doe <john@doe.com>
+        * Jane Doe <jane@doe.com>
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 2. Description
+        Please provide a brief statement about your project in terms that are understandable to the target consumer of the library or project, i.e. an elevator pitch for the project.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a 1 sentence (<140 character) summary of your project to help users when searching the .NET Foundation projects.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 3. Project Governance
+        Please complete this section about who will be maintaining the open source project and how it will run.
+        ### Project Lead
+        Primary contact point for the community and the .NET Foundation when discussing governance of the project.
+
+  - type: input
+    id: projectLeadName
+    attributes:
+      label: Name
+      description: Name of the project lead.
+    validations:
+      required: true
+
+  - type: input
+    id: projectLeadEmail
+    attributes:
+      label: Email
+      description: Email of the project lead.
+    validations:
+      required: true
+
+  - type: input
+    id: projectLeadGitHubUrl
+    attributes:
+      label: GitHub Profile URL
+      description: GitHub profile URL of the project lead.
+      placeholder: https://github.com/<github-username>
+    validations:
+      required: false
+
+  - type: textarea
+    id: commiters
+    attributes:
+      label: Committers
+      description: Which individuals have commit/write access to the repository, what is their GitHub ID and who is their employer (if contributions are on behalf of an employer).
+    validations:
+      required: false
+
+  - type: textarea
+    id: governanceModel
+    attributes:
+      label: Governance Model
+      description: Please describe how new code changes are proposed to the project, how those changes are reviewed, and how a decision is made to accept proposed changes. Also describe the process for identifying and appointing new committers.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: cla
+    attributes:
+      label: CLA
+      options:
+        - label: If already an OSS project, was a Contribution License Agreement in place for contributions accepted?
+          required: false
+
+  - type: textarea
+    id: claDescription
+    attributes:
+      label: How does the project check who has signed one?
+      description: Please describe how the project checks who has signed a CLA.
+    validations:
+      required: false
+
+  - type: input
+    id: claNotificationAlias
+    attributes:
+      label: CLA Notification Alias
+      description: Provide an email address that will receive CLA related notifications from the .NET Foundation CLA automation.
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        #### Assignment Model
+        > Under the .NET Foundation assignment model, project ownership and other intellectual property is assigned to the .NET Foundation and the .NET Foundation agrees to grantback a license to the contributor(s). 
+        
+        #### Contribution Model
+        > Under the .NET Foundation contribution model, a project retains ownership of the copyright, but grants the .NET Foundation a broad license to the project’s code and other intellectual property. The project also confirms that the project’s submissions to .NET Foundation are its own original work (there are also instructions for any third party materials that might be included).
+
+        ## 4. Repository Layout
+
+        The .NET Foundation host guidance for new projects and details on recommended structure here:
+        [https://github.com/dotnet/home/tree/master/guidance](https://github.com/dotnet/home/tree/master/guidance)
+
+        Note that the open source repository should be the master where changes are made by the core development team using the same PR process that is used for non-committer contributions.
+
+
+  - type: textarea
+    id: repositoryLayout
+    attributes:
+      label: Repository Layout
+      description: Please define below any changes you would want to make to your repositories as part of the process of joining the .NET Foundation
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 5. Eligibility Criteria 
+        Please complete the following for your project
+
+  - type: checkboxes
+    id: elegibilityCriteria
+    attributes:
+      label: Eligibility Criteria
+      options:
+        - label: The project is built on the .NET platform and/or creates value within the .NET ecosystem.
+          required: false
+        - label: The project produces source code for distribution to the public at no charge.
+          required: false
+        - label: The project's code is easily discoverable and publicly accessible (preferably on GitHub).
+          required: false
+        - label: The project contains a build script that can produce deployable artifacts that are identical to the official deployable artifacts, with the exception of code signing (Exception may be granted for strong name keys, though strongly encouraged to be committed. Exception relies on OSS signing being in the build script for public builds).
+          required: false
+        - label: When applicable, project must use reproducible build settings in its toolchain.
+          required: false
+        - label: The project uses [Source Link.](https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/sourcelink)
+          required: false
+        - label: The project uses either embedded PDBs or publish symbol packages to NuGet (if applicable).
+          required: false
+        - label: The project code signs their artifacts as appropriate.
+          required: false
+        - label: The project organization has 2FA enabled. Requiring 2FA must be done as part of onboarding if not already enabled.
+          required: false
+        - label: Libraries that are mandatory dependencies of the project are offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
+          required: false
+        - label: Committers are bound by a Contributor License Agreement (CLA) and/or are willing to embrace the .NET Foundation's CLA when the project becomes a Member.
+          required: false
+        - label: The copyright ownership of everything that the project produces is clearly defined and documented.
+          required: false
+        - label: The project has a public issue tracker where the status of any defect can be easily obtained.
+          required: false
+        - label: The project has a published Security Policy.
+          required: false
+        - label: The project has a home page which provides high level information about its status and purpose.
+          required: false
+        - label: The project has a public communication channel where community members can engage with maintainers.
+          required: false
+        - label: The project has a publicly available location where members can review and contribute to documentation.
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 6. PR Plan
+        Please summarize the public relations plan for the announcement when joining the foundation (and releasing as open source if appropriate). For significant news events then please also work with your .NET Foundation contact to ensure a [full PR plan](https://dotnetfoundation.sharepoint.com/Shared%20Documents/PR/Communications%20Plan%20TEMPLATE.docx?web=1) is developed.
+
+  - type: textarea
+    id: prPlanSummary
+    attributes:
+      label: PR Plan Summary
+      description: What is the main story we wish to promote, through what channels, what issues should we be aware of?
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 7. Infrastructure Requirements
+        Please describe any infrastructure requirements for the project. 
+        For example:
+         - How will build servers be operated? 
+         - Any web hosting or service hosting requirements? 
+         - Do we need to set up SSL certificates or provide Authenticode Code Signing arrangement for releases?
+
+  - type: textarea
+    id: infrastructureRequirements
+    attributes:
+      label: Infrastructure Requirements Summary
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 8. Additional Notes
+        Please provide any additional information required or use this area for notes during the onboarding process. If this open source project has similarities with any other projects in this space then please detail them and why this project is different. If there are any potential issues that you feel the project might need help with early on then also state them here and discuss with your .NET Foundation Contact.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+    validations:
+      required: false
