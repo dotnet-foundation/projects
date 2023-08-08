@@ -111,4 +111,4 @@ Activity criteria are designed to be measurable and are based on publicly access
 - Releases
 - Contributors
 
-There are no specific metrics levels, analysis, or calculations which have been defined to judge the activity of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project is active and makes this information available to the Board of Directors. Metrics are gathered on an ongoing basis by the Project Committee so that trends can be determined.
+There are no specific metrics levels, analysis, or calculations which have been defined to judge the activity of a project. Rather, the Project Committee utilizes the various metrics to make a relative determination of whether a project is active and makes this information available to the Board of Directors. Metrics are gathered on an ongoing basis by the Project Committee using the [.NET Foundations Trends Site](https://dnfprojects.org).
