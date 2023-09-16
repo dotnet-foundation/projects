@@ -95,7 +95,7 @@ body:
     id: projectTransferSignatories
     attributes:
       label: Project Transfer Signatories
-      description: Full legal name and __email address__ required of the individual(s) with authority to transfer or contribute the project to the .NET Foundation. Note that if you'd prefer not to include this in the public application, it can be submitted via e-mail to contact@dotnetfoundation.org (referencing this issue number).
+      description: Full legal name and __email address__ required of the individual(s) with authority to transfer or contribute the project to the .NET Foundation. Note that if you'd prefer not to include this in the public application, it can be submitted via e-mail to contact@dotnetfoundation.org (referencing this issue number). Note this likely should include the contributors listed above.
       placeholder: |
         * John Doe <john@doe.com>
         * Jane Doe <jane@doe.com>
