@@ -276,15 +276,14 @@ body:
     attributes:
       value: |
         ## 6. PR Plan
-        Please summarize the public relations plan for the announcement when joining the foundation (and releasing as open source if appropriate). For significant news events then please also work with your .NET Foundation contact to ensure a [full PR plan](https://dotnetfoundation.sharepoint.com/Shared%20Documents/PR/Communications%20Plan%20TEMPLATE.docx?web=1) is developed.
-
+        Please summarize your reason for joining the foundation
   - type: textarea
     id: prPlanSummary
     attributes:
       label: PR Plan Summary
-      description: What is the main story we wish to promote, through what channels, what issues should we be aware of?
+      description: What is the main reason you wish to join the Foundation?
     validations:
-      required: false
+      required: true
 
   - type: markdown
     attributes:
