@@ -1,6 +1,6 @@
 name: Membership Request
 description: Membership request to the Projects Working Group
-title: "[Membership Application]: "
+title: "[Membership Application]: <your name>"
 labels: ["membership", "triage"]
 body:
   - type: markdown
