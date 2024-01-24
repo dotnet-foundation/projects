@@ -1,0 +1,39 @@
+name: Membership Request
+description: Membership request to the Projects Working Group
+title: "[Membership Application]: <your name>"
+labels: ["membership", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Please note all meetings and communications are now conducted through Discord. It is a requirement to have a discord account.
+  - type: input
+    id: name
+    attributes:
+      label: What is your name?
+      placeholder: "Joe Blogs"
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: "What email should we use?"
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: discord
+    attributes:
+      label: discord
+      description: "Your discord ID"
+      placeholder: id
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything you'd like us to know about why you're joining the Projects Working Group
+    validations:
+      required: false
