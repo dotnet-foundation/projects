@@ -1,0 +1,48 @@
+name: Project Support Request
+description: Request support for an existing .NET Foundation project
+title: "[Project Support]: "
+labels: ["project support", "triage"]
+assignees:
+  - ChrisSfanos
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the information below to request support for your existing .NET Foundation project.
+
+        If your request includes confidential information, you can e-mail 
+        contact@dotnetfoundation.org with the information below.
+
+        You can ping on discord for status, but the GitHub issue is the primary way
+        to request support to allow for tracking and involving the project support team.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Project Name
+      placeholder: DotNet Foundation
+    validations:
+      required: true
+  - type: input
+    id: project-url
+    attributes:
+      label: Project Url
+      description: Project Url
+      placeholder: https://github.com/dotnet/dotnet-runtime
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of the problem
+      placeholder: The description
+    validations:
+      required: true
+  - type: textbox
+    id: due-by
+    attributes:
+      label: Due By
+      description: What date is the item due by?
+    validations:
+      required: true
