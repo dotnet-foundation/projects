@@ -1,0 +1,21 @@
+name: Agenda
+description: Add the agenda for a upcoming Project Committee Meeting
+title: "[Agenda]: <date>"
+labels: ["agenda", "triage"]
+assignees:
+  - nicoleabuhakmeh
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Project Committee will be having their monthly meeting on DATE at 5pm Eastern.
+  - type: textarea
+    id: agenda-items
+    attributes:
+      label: Agenda Items
+      description: The issues in the agenda
+      placeholder: |
+        1. Item 1
+        2. Item 2
+    validations:
+      required: true
