@@ -1,7 +1,7 @@
 name: Membership Request
 description: Membership request to the Projects Working Group
 title: "[Membership Application]: "
-labels: ["membership"]
+labels: ["membership", "triage"]
 body:
   - type: markdown
     attributes:
