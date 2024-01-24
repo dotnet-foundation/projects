@@ -1,6 +1,6 @@
 name: Project Support Request
 description: Request support for an existing .NET Foundation project
-title: "[Project Support]: "
+title: "[Project Support]: <project name>"
 labels: ["project support", "triage"]
 assignees:
   - ChrisSfanos
