@@ -39,7 +39,7 @@ body:
       placeholder: The description
     validations:
       required: true
-  - type: textbox
+  - type: input
     id: due-by
     attributes:
       label: Due By
