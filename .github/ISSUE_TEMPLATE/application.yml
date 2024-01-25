@@ -158,6 +158,14 @@ body:
       required: false
 
   - type: textarea
+    id: discord-ids
+    attributes:
+      label: Discord Ids
+      description: What are the discord IDs for the major contributors that should be listed as project maintainers on discord? We use discord for all foundation communications and have maintainer roles.
+    validations:
+      required: false
+
+  - type: textarea
     id: governanceModel
     attributes:
       label: Governance Model
