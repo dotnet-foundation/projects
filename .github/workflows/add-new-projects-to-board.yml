@@ -12,5 +12,5 @@ jobs:
       if: contains(github.event.issue.labels.*.name, 'project application')
       with:
         action-token: "${{ secrets.ACCESS_TOKEN }}"
-        project-url: "https://github.com/dotnet-foundation/projects/projects/1"
+        project-url: "https://github.com/VeritasSoftware/LiveHealthChecks"
         column-name: "New Project Application"
