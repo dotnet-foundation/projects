@@ -283,12 +283,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 6. Please summarize your reason for joining the Foundation
-        Why are you applying to add your project to the Foundation?
+        ## 6. Why are you applying to add your project to the Foundation?
   - type: textarea
     id: whyPlanSummary
     attributes:
-      label: Why are you applying to add your project to the Foundation?
+      label: Why
       description: Please summarize your reason for joining the Foundation
     validations:
       required: true
