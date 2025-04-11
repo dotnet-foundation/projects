@@ -10,8 +10,6 @@ body:
       value: |
         Please fill in the information below to request a code signing certificate for your existing .NET Foundation project.
 
-        You will need a LastPass account for receiving the credentials. If you'd prefer to provide the email address via email, please email project-support@dotnetfoundation.org with it.
-
         You can ping on discord for status, but GitHub issues is the primary way to request support to allow for tracking
         and involving the project support team.
   - type: input
@@ -19,14 +17,6 @@ body:
     attributes:
       label: Project Name
       description: What is the name of the project
-      placeholder: ex. email@example.com
-    validations:
-      required: true
-  - type: input
-    id: lastpass-email
-    attributes:
-      label: LastPass Email
-      description: What email should be used for LastPass
       placeholder: ex. email@example.com
     validations:
       required: true
@@ -41,5 +31,4 @@ body:
         - label: Create organization with DigiCert
         - label: Request certificate from DigiCert
         - label: Received certificate and finalize sign service configuration
-        - label: Provide credentials in shared folder in LastPass
 
