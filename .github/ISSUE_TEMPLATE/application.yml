@@ -3,7 +3,7 @@ description: Creates a public issue to track your projects application to join t
 title: "Issue: New .NET Foundation Project Application"
 labels: ["project application", "project support"]
 assignees:
-  - sbwalker
+  - glennawatson
   - ChrisSfanos
 body:
   - type: markdown
