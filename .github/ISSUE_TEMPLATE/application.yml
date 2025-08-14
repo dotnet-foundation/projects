@@ -116,6 +116,14 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: whatAreYouHoping
+    attributes:
+      label: What are you hoping from the foundation
+      description: Explain briefly why you want the project to join the Foundation. What tools or resources are you hoping to gain from joining.
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
