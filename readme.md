@@ -1,6 +1,35 @@
 
 # .NET Foundation Project Committee Charter
 
+## Getting Support for Your .NET Foundation Project
+
+**Are you a maintainer of an existing .NET Foundation project looking for support?** You're in the right place! This repository serves both new project onboarding AND support for existing projects.
+
+### How to Request Support
+
+If you need support for your existing .NET Foundation project, please:
+
+1. **[Submit a Project Support Request](https://github.com/dotnet-foundation/projects/issues/new?assignees=ChrisSfanos&labels=project+support%2Ctriage&template=project-support-request.yml&title=%5BProject+Support%5D%3A+%3Cproject+name%3E)** - Use our support request template to describe your needs
+2. **Join the [.NET Foundation Discord](https://discord.gg/dotnet-foundation)** - Connect with other maintainers in the `#projects-support` channel
+3. **Email us directly** - For confidential matters, reach out to contact@dotnetfoundation.org
+
+### What Support is Available
+
+The Project Committee provides support for existing .NET Foundation projects including:
+- Technical guidance and best practices
+- Infrastructure assistance (code signing, hosting, CI/CD)
+- Community building and project promotion
+- Legal and licensing guidance
+- Access to .NET Foundation resources and services
+
+---
+
+## New Project Applications
+
+**Looking to join the .NET Foundation?** Start with our [New Project Application](https://github.com/dotnet-foundation/projects/issues/new?assignees=&labels=project+application&template=application.yml&title=Issue%3A+New+.NET+Foundation+Project+Application) or review our [new project onboarding guide](new-projects.md).
+
+---
+
 ## Background
 
 The .NET Foundation, an independent 501(C)(6) corporation, is chartered to foster open development and collaboration around the growing collection of open source technologies for .NET. It serves as a forum for commercial and community developers alike to strengthen the future of the .NET ecosystem by promoting openness, community participation and rapid innovation.
@@ -15,9 +44,9 @@ An important aspect of the .NET Foundation's vision is to attract and foster vib
 
 The Project Committee manages the day to day requirements of Projects. This includes but is not limited to the following:
 
+- **Provide support to existing Projects** - Help with technical, infrastructure, legal, and community needs
 - Review and evaluate new Project applications
 - Monitor activity of existing Projects
-- Provide support to Projects
 - Manage the retirement of Projects
 
 ## Organizational Structure
