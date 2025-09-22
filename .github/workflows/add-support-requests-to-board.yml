@@ -1,0 +1,16 @@
+name: Add project support request to project board
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  Add_Project_Support_Request_To_Board:    
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/actions-add-new-issue-to-column@7a9ee8bfa125bf97c2fcfbac20ae8f82657f83ba
+      if: contains(github.event.issue.labels.*.name, 'project support')
+      with:
+        action-token: "${{ secrets.ACCESS_TOKEN }}"
+        project-url: "https://github.com/dotnet-foundation/projects/projects/1"
+        column-name: "Project Support Requests"
