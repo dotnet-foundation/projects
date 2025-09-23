@@ -10,6 +10,13 @@ body:
       value: |
         Please fill in the information below to request support for your existing .NET Foundation project.
 
+        **What support is available:**
+        - Technical guidance and best practices
+        - Infrastructure assistance (code signing, hosting, CI/CD)
+        - Community building and project promotion  
+        - Legal and licensing guidance
+        - Access to .NET Foundation resources and services
+
         If your request includes confidential information, you can e-mail 
         contact@dotnetfoundation.org with the information below.
 
