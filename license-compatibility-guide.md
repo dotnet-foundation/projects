@@ -1,10 +1,10 @@
 # License Compatibility Guide
 
-## Understanding What's Compatible (and What's Not)
+This guide provides detailed information on license compatibility requirements for .NET Foundation projects, including both current member projects and prospective applicants.
 
-## What Licenses ARE Compatible
+## Compatible Licenses
 
-The .NET Foundation accepts projects that use permissive open source licenses. We automatically approve any permissive license from the [Open Source Initiative (OSI)](https://opensource.org/) approved list.
+The .NET Foundation accepts projects that use permissive open source licenses. Any permissive license from the [Open Source Initiative (OSI)](https://opensource.org/) approved list is acceptable.
 
 Examples of compatible permissive licenses:
 
@@ -20,7 +20,7 @@ Examples of compatible permissive licenses:
 - Committers must be bound by a Contributor License Agreement (CLA) or willing to embrace the .NET Foundation's CLA
 - Copyright ownership must be clearly defined and documented
 
-## What Licenses Are NOT Compatible
+## Incompatible Licenses
 
 The Foundation does not accept projects using copyleft licenses. These include:
 
@@ -34,20 +34,22 @@ The Foundation does not accept projects using copyleft licenses. These include:
 
 The .NET community has a significantly higher proportion of enterprise and corporate users compared to many other open source ecosystems. These organizations often have strict legal requirements around license compatibility and derivative works. Permissive licenses provide the flexibility these users need, which is why they're fundamental to the Foundation's mission of supporting the .NET ecosystem effectively.
 
-## Business Models We Support
+## Supported Business Models
 
-### The Foundation DOES Support These Business Strategies:
+The Foundation supports various business models for member projects:
 
-#### 1. Dual Licensing
+### 1. Dual Licensing
 
-You can offer your project under TWO licenses simultaneously:
+Projects may offer their code under two licenses simultaneously:
 
 - One permissive OSI-approved license (for the open source community)
 - One commercial license (offering additional warranties, guarantees, or terms)
 
-This is perfectly acceptable! The Foundation operates on a per-repository basis, so as long as the source code is available under a permissive license, you're good to go.
+The Foundation operates on a per-repository basis. As long as the source code is available under a permissive license, dual licensing is acceptable.
 
-#### 2. Commercial Services Around Open Source
+### 2. Commercial Services
+
+Projects may offer commercial services built around their open source code, including:
 
 - Premium support packages
 - Consulting services
@@ -55,42 +57,40 @@ This is perfectly acceptable! The Foundation operates on a per-repository basis,
 - Managed hosting
 - Enterprise warranties and SLAs
 
-**Important:** The source code must remain free and open, but services built around it don't have to be.
+The source code must remain free and open under a permissive license. Commercial services built around the code are acceptable.
 
-#### 3. [GitHub Sponsors](https://github.com/sponsors)
+### 3. Sponsorship and Funding
 
-We actively encourage projects to use GitHub Sponsors to build sustainable funding for maintainers.
+Projects are encouraged to use [GitHub Sponsors](https://github.com/sponsors) and other funding platforms to build sustainable support for maintainers.
 
-#### 4. Company Formation
+### 4. Company Formation and Commercial Editions
 
-You can:
+Projects may:
 
-- Set up a company around your project
+- Establish a company around the project
 - Offer commercial editions with additional features
 - Provide paid support tiers
-- Keep premium packages proprietary (as long as the core remains permissive)
+- Maintain proprietary premium packages (provided the core remains under a permissive license)
 
-### Our Core Principle
+## Core Licensing Principle
 
-**"As long as the source is free, that is our condition."**
+The Foundation's core requirement is that project source code must be freely available under a permissive open source license. Premium support, commercial editions, and value-added services are compatible with Foundation membership provided the core source code remains under a permissive license.
 
-You don't have to make everything available as free packages. Premium support, commercial editions, and value-added services are all compatible with Foundation membership.
+## Guidelines for Current and Prospective Maintainers
 
-## For Maintainers: Your Options
+.NET Foundation project maintainers have flexibility in how they structure their projects and business models:
 
-As a .NET Foundation project maintainer, you have flexibility:
-
-### You CAN:
+### Permitted Activities:
 
 - Implement dual licensing (permissive + commercial)
-- Form a company around your project
+- Form a company around the project
 - Charge for premium support and services
 - Create paid tiers and enterprise offerings
 - Use GitHub Sponsors or other funding platforms
-- Keep some packages proprietary (as long as core is permissive)
+- Maintain proprietary premium packages (provided core remains under a permissive license)
 - Offer commercial warranties and guarantees
 
-### You CANNOT:
+### Prohibited Activities:
 
 - Switch to a copyleft license (GPL, AGPL, RPL, etc.)
 - Make mandatory dependencies use copyleft licenses
@@ -101,8 +101,8 @@ Copyleft licenses require derivative works to be licensed under the same terms, 
 
 The .NET community has a significantly higher proportion of enterprise and corporate users compared to many other open source ecosystems. These organizations often have strict legal requirements around license compatibility and derivative works. Permissive licenses provide the flexibility these users need, which is why they're fundamental to the Foundation's mission of supporting the .NET ecosystem effectively.
 
-## Questions or Feedback?
+## Questions or Feedback
 
 If you have questions about license compatibility or need clarification on any of these guidelines, please [open an issue](https://github.com/dotnet-foundation/projects/issues) in this repository.
 
-**Remember: We want you to succeed sustainably!** Building commercial services, offering paid support, and creating business models around your open source work is not just allowed—it's encouraged.
+The Foundation supports sustainable business models around open source projects. Commercial services, paid support, and business development around open source work are compatible with Foundation membership requirements.
