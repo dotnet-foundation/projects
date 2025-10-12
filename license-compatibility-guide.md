@@ -1,10 +1,6 @@
 # License Compatibility Guide
 
-**October 12, 2025 by .NET Foundation Board**
-
-## .NET Foundation License Compatibility Guide
-
-### Understanding What's Compatible (and What's Not)
+## Understanding What's Compatible (and What's Not)
 
 ## What Licenses ARE Compatible
 
@@ -79,31 +75,6 @@ You can:
 **"As long as the source is free, that is our condition."**
 
 You don't have to make everything available as free packages. Premium support, commercial editions, and value-added services are all compatible with Foundation membership.
-
-## Addressing the AutoMapper Misconception
-
-Recently, AutoMapper graduated from the .NET Foundation, and we want to clarify what happened to prevent misconceptions.
-
-### What Actually Happened
-
-AutoMapper transitioned to the Reciprocal Public License (RPL 1.5), which is a copyleft license rather than a permissive one. While RPL 1.5 is technically an open source license, it doesn't align with the Foundation's requirement for permissive licenses.
-
-### What Did NOT Happen
-
-- AutoMapper was NOT forced out for wanting to monetize
-- AutoMapper was NOT punished for going commercial
-- The Foundation does NOT prohibit dual licensing or commercial models
-
-### The Real Reason
-
-The departure occurred on friendly, amicable terms because AutoMapper's new license model (using a copyleft license) no longer met our eligibility criteria. The Foundation maintains that member projects must use permissive open source licenses.
-
-If AutoMapper had chosen a dual-license model with:
-
-- One permissive license (like MIT or Apache 2.0) for open source
-- One commercial license for enterprises
-
-...it would have remained fully compatible with Foundation membership!
 
 ## For Maintainers: Your Options
 
