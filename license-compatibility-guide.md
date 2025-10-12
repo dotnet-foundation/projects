@@ -101,8 +101,8 @@ Copyleft licenses require derivative works to be licensed under the same terms, 
 
 The .NET community has a significantly higher proportion of enterprise and corporate users compared to many other open source ecosystems. These organizations often have strict legal requirements around license compatibility and derivative works. Permissive licenses provide the flexibility these users need, which is why they're fundamental to the Foundation's mission of supporting the .NET ecosystem effectively.
 
-## Questions?
+## Questions or Feedback?
 
-Feel free to contact us at contact@dotnetfoundation.org, join our [Discord](https://discord.gg/dotnet-foundation) or interact with us on social media.
+If you have questions about license compatibility or need clarification on any of these guidelines, please [open an issue](https://github.com/dotnet-foundation/projects/issues) in this repository.
 
 **Remember: We want you to succeed sustainably!** Building commercial services, offering paid support, and creating business models around your open source work is not just allowed—it's encouraged.
