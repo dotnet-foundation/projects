@@ -28,6 +28,8 @@ The Project Committee provides support for existing .NET Foundation projects inc
 
 **Looking to join the .NET Foundation?** Start with our [New Project Application](https://github.com/dotnet-foundation/projects/issues/new?assignees=&labels=project+application&template=application.yml&title=Issue%3A+New+.NET+Foundation+Project+Application) or review our [new project onboarding guide](new-projects.md).
 
+**Questions about licensing?** Check out our comprehensive [License Compatibility Guide](license-compatibility-guide.md) to understand what licenses are compatible, what business models we support, and how dual licensing works.
+
 ---
 
 ## Background
@@ -99,10 +101,14 @@ Broken into a variety of functional areas, the eligibility criteria is a checkli
 
 **Licenses and Copyright**
 
-- The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation.
+- The code is offered under a standard, permissive open source license which has been approved by the .NET Foundation. Your project needs to be licensed under **at least one** permissive OSI-approved license (such as MIT, Apache 2.0, or BSD).
+- Dual licensing is fully supported - you can offer your project under both a permissive open source license AND a commercial license simultaneously.
+- Commercial business models are encouraged, including GitHub Sponsors, premium support, consulting services, and commercial editions (as long as the core source code remains available under a permissive license).
 - Libraries that are mandatory dependencies of the project are also offered under a standard, permissive open source license which has been approved by the .NET Foundation (exceptions include a dependency that is required by the target platform where no alternative open source dependency is available such as the .NET Framework or a hardware specific library).
 - Committers are bound by a Contributor License Agreement (CLA) and/or are willing to embrace the .NET Foundation's CLA when the project becomes a Member.
 - The copyright ownership of everything that the project produces is clearly defined and documented.
+
+For more details on licensing requirements and business models, see our [License Compatibility Guide](license-compatibility-guide.md).
 
 **Quality**
 
