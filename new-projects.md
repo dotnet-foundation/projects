@@ -53,7 +53,7 @@ The last stage of joining the .NET Foundation involves a set of activities to br
 |-----|----------|
 |Configure CLA bot|The .NET Foundation will configure the CLA bot for your repository to automatically check that all contributors have signed the CLA. See the [CLA Troubleshooting Guide](cla-troubleshooting-guide.md) if you encounter issues.|
 |Mailing List|Join the project leader mailing list|
-|Slack channel|Joing the project leader slack channel|
+|Slack channel|Join the project leader slack channel|
 |License updates + copyright|Move your license to MIT (or continue to use Apache)|
 |Code of Conduct|Review and add to your README|
 |Project list|Get your project included on the project list on the .NET Foundation website|
