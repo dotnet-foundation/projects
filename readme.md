@@ -20,7 +20,12 @@ The Project Committee provides support for existing .NET Foundation projects inc
 - Infrastructure assistance (code signing, hosting, CI/CD)
 - Community building and project promotion
 - Legal and licensing guidance
+- CLA (Contributor License Agreement) support and troubleshooting
 - Access to .NET Foundation resources and services
+
+### Common Support Scenarios
+
+- **CLA Issues?** Having trouble with the CLA bot or inconsistent CLA reports? Check out our [CLA Troubleshooting Guide](cla-troubleshooting-guide.md) for step-by-step investigation procedures.
 
 ---
 

@@ -44,12 +44,14 @@ By default, the .NET Foundation selects **Licensed** in the CLA
 
 Once we have the signatories identified, we will send out the CLA via DocuSign for everyone to complete.  Once all parties have signed it and we’ve filed it away, we move forward with onboarding the project itself.
 
+**Troubleshooting CLA Issues:** If you encounter issues with the CLA bot or inconsistent CLA reports after onboarding, refer to our [CLA Troubleshooting Guide](cla-troubleshooting-guide.md) for detailed investigation steps.
+
 ## Project Onboarding
 The last stage of joining the .NET Foundation involves a set of activities to bring your project in line with all .NET Foundation projects and help you join the broader .NET Foundation community.  These items will all be tracked via the GitHub issue (that was created when you filled out your project application) and additional details are included in a detailed email you will receive.  
 
 |Tasks|Background|
 |-----|----------|
-|Configure CLA bot| detailed description needed|
+|Configure CLA bot|The .NET Foundation will configure the CLA bot for your repository to automatically check that all contributors have signed the CLA. See the [CLA Troubleshooting Guide](cla-troubleshooting-guide.md) if you encounter issues.|
 |Mailing List|Join the project leader mailing list|
 |Slack channel|Joing the project leader slack channel|
 |License updates + copyright|Move your license to MIT (or continue to use Apache)|
