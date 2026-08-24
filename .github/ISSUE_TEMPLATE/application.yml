@@ -12,6 +12,12 @@ body:
         ## Instructions:
         Thanks for your application to join the .NET Foundation!
 
+        > ### 🌱 Not much community traction yet? Consider joining Discord first.
+        >
+        > We evaluate applications on two separate dimensions: **Eligibility** (is the project aligned with our mission, license, and technical requirements — binary, pass/fail) and **Activity** (stars, forks, contributors, commits, issues/PRs, downloads — no hard threshold, but it's what tells us a project has a real community). A project that passes Eligibility but hasn't yet built Activity is onboarded at the **Seed** level rather than rejected, and is automatically re-evaluated each quarter — so applying early is never a dead end.
+        >
+        > That said, if your project is still pre-traction (you're the sole contributor, close to zero stars/forks, and no external issues or PRs yet), you'll likely get more value, faster, by **joining the [.NET Foundation Discord](https://discord.gg/dotnet-foundation)** and sharing your project there first. It's free, puts you directly in front of other .NET maintainers and potential contributors, and the traction you build makes for a stronger, faster-reviewed application when you do apply — while saving the volunteer committee that reviews every submission time on applications that aren't ready for a full Board review yet. You're welcome to apply now regardless — this is a suggestion, not a gate.
+
         1.  Here is a checklist of steps we'll follow during the process: [New Project Onboarding](https://github.com/dotnet-foundation/projects/blob/master/new-projects.md)
         2.  Please review the [Eligibility Criteria](https://github.com/dotnet-foundation/projects#eligibility-criteria) before completing the application 
         3.  Please fill out the application in the template below. If you have any issues with using the template, please reach out to the team at contact@dotnetfoundation.org and we will follow up directly with you.
@@ -35,6 +41,22 @@ body:
 
         ## 1.  General Information:
         Please provide the following information about your project.
+
+  - type: checkboxes
+    id: communityReadinessSelfCheck
+    attributes:
+      label: Community Readiness Self-Check (optional, for your own reflection)
+      description: |
+        This isn't scored and won't block your application — it's here to help you decide whether to apply now or build a bit more traction first. If you can only check zero or one of these, we'd genuinely recommend joining the [.NET Foundation Discord](https://discord.gg/dotnet-foundation) and engaging with the community for a few months before applying, rather than going through a full application now.
+      options:
+        - label: My project has at least one merged pull request from someone other than me or an automated bot.
+          required: false
+        - label: My project has been public for at least 3 months.
+          required: false
+        - label: My project has organic GitHub stars, forks, or package downloads that I can't attribute to my own testing or CI activity.
+          required: false
+        - label: I already have a presence in the .NET Foundation Discord and/or other .NET community spaces.
+          required: false
 
   - type: input
     id: projectName
