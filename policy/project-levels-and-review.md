@@ -3,7 +3,6 @@
 **Status:** Draft for committee discussion. Not adopted. Everything below is a proposal, open to change.
 **Author:** Irina Scurtu
 **Date:** 2026-09-10
-**Related:** [application-improvements.md](../templates/application-improvements.md) · [meetings-analysis.md](../meetings-analysis.md)
 
 This draft suggests what level a project could enter at, who might decide, and what could happen after. It comes from a gap: the committee records outcomes ("Accept", "Defer", "Decline") without a written rule for what separates them, and "Deferred to Seed" has been used without a definition of what Seed grants or when the project gets looked at again.
 
@@ -18,7 +17,12 @@ This draft suggests what level a project could enter at, who might decide, and w
 | **Member** | Full project membership. All Foundation services available. | Listed | Health check at 12 months |
 | **Declined** | For an applicant who will not or cannot resolve a blocking condition (§2). | Not listed | A cooling-off period before reapplication, suggested at 12 months |
 
-A fifth outcome, Conditional Acceptance, would not be a level. It would be Member membership held open while the applicant closes a short list of named conditions (see §6).
+Two project statuses would sit alongside the levels:
+
+| Status | What it could mean |
+| --- | --- |
+| **Blocked** | Evaluation paused on a fixable blocking condition (§2). No level is assigned until it clears. |
+| **Conditional** | Member membership held open while the applicant closes a short list of named conditions (§6). |
 
 ---
 
@@ -49,7 +53,7 @@ Once §2 is clear, the rest becomes a level question rather than a rejection que
 
 ## 3. Entry gates
 
-The idea is to read the level off the application form. Each dimension below maps to fields the applicant fills in, using the template proposed in [application-improvements.md](../templates/application-improvements.md). The evaluator would verify what was declared instead of researching the project from scratch, and the form summary would point strongly toward a level.
+The idea is to read the level off the application form. Each dimension below maps to fields the applicant fills in, assuming these fields are added to the application template. The evaluator would verify what was declared instead of researching the project from scratch, and the form summary would point strongly toward a level.
 
 | Form field | Feeds |
 | --- | --- |
@@ -105,7 +109,7 @@ Onboarding items, allowed to stay open at either level and tracked as conditions
 
 A project failing load-bearing criteria could be capped at Seed until it fixes them. A project failing only onboarding items could be a Member under Conditional Acceptance.
 
-Self-attestation probably shouldn't count on its own. Each criterion would need a link, per §7 of [application-improvements.md](../templates/application-improvements.md).
+Self-attestation probably shouldn't count on its own. Each eligibility checkbox on the form would need an evidence URL next to it.
 
 ---
 
@@ -197,13 +201,14 @@ Quorum has never been defined in the meeting notes. If level assignment becomes 
 
 ## 8. Recording it
 
-A possible extension of the meeting note template in [meetings-analysis.md](../meetings-analysis.md):
+A possible extension of the current meeting note format:
 
 ```markdown
 ### [Project Name](#issue-link)
 **Metrics:** N stars · N commits · N contributors · first release YYYY-MM · N downloads
 **Capping dimension:** track record / continuity / adoption / hygiene
-**Level:** Blocked / Pre-Seed / Seed / Member / Conditional Acceptance / Declined
+**Level:** Pre-Seed / Seed / Member / Declined
+**Status:** Blocked / Conditional (if any)
 **Reason:** one sentence
 **Next date:** blocked, awaiting applicant | reapplication YYYY-MM-DD (Pre-Seed) | review YYYY-MM-DD (Seed) | conditions due YYYY-MM-DD
 **Mentor:** @handle (Seed only)
